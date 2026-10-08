@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hira Umbrella Network Somaliland</title>
+    <style>
+        :root {
+            --primary-color: #0b4f8a;
+            --secondary-color: #d9534f;
+            --accent-color: #27ae60;
+            --bg-light: #f8f9fa;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: var(--text-color);
+            background-color: #fff;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 15px 20px;
+        }
+
+        .logo-title h1 {
+            font-size: 1.3rem;
+            color: var(--primary-color);
+            margin: 0;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #555;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--primary-color);
+        }
+
+        .hero {
+            background: linear-gradient(rgba(11, 79, 138, 0.88), rgba(11, 79, 138, 0.88));
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .hero h2 {
+            font-size: 2.3rem;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            max-width: 800px;
+            margin: 0 auto 25px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            color: var(--primary-color);
+            margin-bottom: 30px;
+            font-size: 2rem;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            width: 60px;
+            height: 3px;
+            background-color: var(--secondary-color);
+            display: block;
+            margin: 10px auto 0;
+        }
+
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: var(--bg-light);
+            border-radius: 8px;
+            padding: 25px;
+            border-top: 4px solid var(--primary-color);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        .card h3 {
+            color: var(--primary-color);
+            margin-top: 0;
+        }
+
+        .badge {
+            background: var(--accent-color);
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #1a252f;
+            color: white;
+            text-align: center;
+            padding: 25px 20px;
+            margin-top: 50px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #c9302c;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="logo-title">
+                <h1>Hira Umbrella Network Somaliland</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#members">Key Members</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h2>Uniting & Empowering Women in Somaliland</h2>
+        <p>Hira Umbrella Network brings together 19 women-led organizations across Somaliland to advocate for women empowerment, child welfare, IDP protection, disability rights, and social inclusion.</p>
+        <a href="#about" class="btn">Learn More</a>
+    </section>
+
+    <div class="container" id="about">
+        <h2 class="section-title">Our Key Focus Areas</h2>
+        <div class="cards-grid">
+            <div class="card">
+                <h3>Women & Children Empowerment</h3>
+                <p>Strengthening women's leadership, socio-economic independence, and championing children's rights across communities.</p>
+            </div>
+            <div class="card">
+                <h3>Protection of IDPs & Vulnerable Groups</h3>
+                <p>Providing advocacy, support, and sustainable development programs for internally displaced persons (IDPs) and marginalized communities.</p>
+            </div>
+            <div class="card">
+                <h3>Disability Rights & Social Inclusion</h3>
+                <p>Promoting equal opportunities, accessibility, and anti-discrimination support for persons with disabilities in Somaliland.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="members">
+        <h2 class="section-title">Officially Registered Key Organizations</h2>
+        <div class="cards-grid">
+            <div class="card">
+                <span class="badge">Officially Certified</span>
+                <h3>Togdheer Women Disability Network Organization</h3>
+                <p><strong>Registration No:</strong> L.43/2010/ Page 1257 /2021</p>
+                <p>Dedicated to advocating for the rights, empowerment, and development of women with disabilities in Togdheer region and across Somaliland.</p>
+            </div>
+            <div class="card">
+                <span class="badge">Officially Certified</span>
+                <h3>Daawo Women Organization</h3>
+                <p><strong>Registration No:</strong> MNP&C/DP/37/813 13K1 /104</p>
+                <p>Focused on rehabilitation, reconstruction, community development, and advancing women's initiatives in Somaliland.</p>
+            </div>
+            <div class="card">
+                <span class="badge">Officially Certified</span>
